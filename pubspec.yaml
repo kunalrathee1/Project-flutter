@@ -1,0 +1,63 @@
+name: reliance_smart_bazaar
+description: "Reliance Smart Bazaar Online – Digital supermarket for Kharghar, Navi Mumbai."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Persistence
+  shared_preferences: ^2.3.3
+
+  # Location
+  geolocator: ^13.0.2
+  permission_handler: ^11.3.1
+
+  # Maps
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # PDF
+  pdf: ^3.11.1
+  printing: ^5.14.1
+
+  # Localization
+  intl: ^0.20.2
+
+  # Fonts
+  google_fonts: ^6.2.1
+
+  # Images
+  cached_network_image: ^3.4.1
+
+  # URL launcher (directions, phone)
+  url_launcher: ^6.3.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
+  # flutter_localizations will pick up ARB files from lib/l10n/
